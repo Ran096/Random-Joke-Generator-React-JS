@@ -1,0 +1,53 @@
+.container{
+    margin:5px;
+}
+.image-div{
+    
+    height: 320px;
+    width: 400px;
+    margin-inline: auto;
+    background-image: url("./assets/norris.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px 10px;
+
+    
+}
+.buttons-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+button,select{
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #222;
+    background-color: white;
+    cursor: pointer;
+    font: 16px/1.5 "Courier New",Arial,sans-serif;
+}
+button:hover{
+    box-shadow: 0px 0px 2px rgb(171, 168, 168);
+}
+.foo{
+    padding: 10px 10px;
+}
+.text-box{
+    margin-top: 0;
+    margin-inline: auto;
+    max-width: 600px;
+     min-width: 400px;
+     border: 5px solid #2222221a;
+     border-radius: 10px;
+     padding: 5px;
+     text-align: left;
+     background-color: lightyellow;
+     min-height: 50px;
+     line-height: 1.5rem;
+     color: black;
+     font-weight: bold;
+  
+}
